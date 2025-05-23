@@ -1,5 +1,5 @@
 name: expense
-networs: 
+networks: 
   default:
     name: expense
 services:
