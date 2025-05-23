@@ -8,7 +8,7 @@ WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 RUN npm install 
-RUN useradd expense
+# RUN useradd expense
 CMD ["node","index.js"]
 
 
